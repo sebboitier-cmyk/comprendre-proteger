@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comprendre - Protéger</title>
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      font-family: Arial, sans-serif;
+      overflow:hidden;
+      background:black;
+    }
+
+    .hero{
+      width:100vw;
+      height:100vh;
+      background-image:url('hero.jpg');
+      background-size:cover;
+      background-position:center;
+      background-repeat:no-repeat;
+    }
+
+    .overlay{
+      position:absolute;
+      inset:0;
+      background:rgba(0,0,0,0.15);
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="hero"></div>
+  <div class="overlay"></div>
+
+</body>
+
+</html>
